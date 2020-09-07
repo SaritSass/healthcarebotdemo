@@ -1,0 +1,141 @@
+.header {
+  background: #0071ca;
+  height: 100px;
+  box-shadow: 0px 5px 5px #888888 !important;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header .logo {
+  display: block;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  text-align: right;
+}
+
+.header .title {
+  font-family: 'Segoe Semibold', Calibri, 'Helvetica Neue', Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#webchat {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+}
+
+body {
+  font-size: medium;
+}
+label.ac-textBlock {
+  text-align: right !important;
+ }
+
+.logo-row {
+    margin: 0 auto;
+}
+
+.logo {
+    width: 50%;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+}
+
+.logo img {
+  margin: 5px 10px;
+  height: 50px;
+}
+
+.old-button, .ac-pushButton {
+  font-size: medium !important;
+  line-height: 1.2rem;
+  padding: 0.2rem !important;
+}
+
+.ac-pushButton:hover {
+  background-color:rgb(0, 120, 215);
+  color: white;
+  cursor: pointer;
+}
+
+.webchat__stackedLayout--fromUser .webchat__bubble__content{
+  border-radius: 10px;
+  background-color: rgb(169, 226, 246) !important;
+  color: black;
+}
+
+.webchat__bubble__content{
+  border-radius: 10px;
+  background-color: rgb(212, 226, 235) !important;
+  border-radius: 10px !important;
+  color: white;
+  margin: 0 10px;
+}
+
+.webchat__stacked_indented_content {
+  direction: rtl;
+  text-align: right
+}
+
+.webchat__stackedLayout--fromUser {
+  direction: ltr;
+}
+
+.webchat__stackedLayout--fromUser .webchat__stackedLayout__avatar {
+  display: none;
+}
+
+.webchat__stackedLayout__content .css-1s8geyi {
+  display: none;
+}
+
+.ac-pushButton > div, .old-button > div {
+  white-space: pre-wrap !important;
+  text-overflow: unset !important;
+}
+
+.old-button {
+  border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    color: black!important;
+}
+
+div.css-y1c0xs {
+  scroll-behavior: smooth
+}
+
+.ac-input p {
+  font-size: medium;
+  line-height: 1.2rem;
+  white-space: pre-wrap;
+  overflow: unset;
+}
+
+
+input[type="checkbox" i]:checked + * + *{
+  color: #00589d !important;
+  background-color: white;
+  font-weight: bold !important;
+
+}
+.ac-input input {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.3em !important;
+
+
+}
